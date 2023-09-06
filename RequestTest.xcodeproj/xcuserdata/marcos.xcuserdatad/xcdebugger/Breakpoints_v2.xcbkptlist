@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5C077134-0870-45B7-8683-34F13BF1A070"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD6A3F38-A478-4CBE-B91F-D96BF56CCCC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RequestTest/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchRemoteCountries()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FD6A3F38-A478-4CBE-B91F-D96BF56CCCC7 - f80903d189e20ebc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RequestTest.fetchRemoteCountries() async throws -&gt; RequestTest.Countries"
+                  moduleName = "RequestTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/RequestTest/RequestTest/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "235">
+               </Location>
+               <Location
+                  uuid = "FD6A3F38-A478-4CBE-B91F-D96BF56CCCC7 - f80903d189e20ebc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RequestTest.fetchRemoteCountries() async throws -&gt; RequestTest.Countries"
+                  moduleName = "RequestTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/RequestTest/RequestTest/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "398">
+               </Location>
+               <Location
+                  uuid = "FD6A3F38-A478-4CBE-B91F-D96BF56CCCC7 - f80903d189e20e30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RequestTest.fetchRemoteCountries() async throws -&gt; RequestTest.Countries"
+                  moduleName = "RequestTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/RequestTest/RequestTest/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "197">
+               </Location>
+               <Location
+                  uuid = "FD6A3F38-A478-4CBE-B91F-D96BF56CCCC7 - a9782683b9e2ca78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RequestTest.fetchRemoteCountries() async throws -&gt; Swift.Array&lt;RequestTest.Country&gt;"
+                  moduleName = "RequestTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/RequestTest/RequestTest/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

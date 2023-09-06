@@ -23,7 +23,7 @@ struct Countries: Decodable {
     let data: [Country]
 }
 
-func fetchRemoteCountries() async throws -> Countries {
+func fetchRemoteCountries() async throws -> [Country] {
     let url = URL(string: "https://apiv3.apifootball.com/?action=get_countries&APIkey=fe56acd2acb45d94a9f1331149dc55aa2846896f38ecf1484de36d6a3cea87f0")!
 
     let request = URLRequest(url: url)
@@ -35,15 +35,15 @@ func fetchRemoteCountries() async throws -> Countries {
     
     let decoder = JSONDecoder()
     
-    return try decoder.decode(Countries.self, from: data)
+    return try decoder.decode([Country].self, from: data)
 }
 
 var results = try await fetchRemoteCountries()
 
-print(results.data.count)
-print(results.data.self)
+//print(results.data.count)
+//print(results.data.self)
 
-results.data.forEach { country in
+results.forEach { country in
     print(country.countryID)
     print(country.countryName)
     print(country.countryLogo)
